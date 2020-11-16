@@ -1,6 +1,6 @@
 name: GitHub Action
 
-on: [push]
+on: [repository_dispatch]
 
 env:
   DOTNET_NOLOGO: true
